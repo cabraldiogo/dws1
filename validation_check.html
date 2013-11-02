@@ -6,32 +6,6 @@
 		<title>Validation Check Assignment</title>
 	</head>
 	<body>
-		<h1>HTML5 Validation Check</h1>
-		
-			<h2><a href="http://www.brandvillage.com.au/">www.brandvillage.com.au/</a></h2>
-			<p>Brand Village is website that works on research of customer feedbacks for big brands.</p>
-			<h3> Erros and solutions</h3>
-					<ul>	
-						<li><p>This website does not have any erros and passed the W3C validation<p>
-						</li>	
-					</ul>
-			<h2><a href="http://www.pseudoroom.com/">www.pseudoroom.com</a></h2>
-			<p>Description.</p>
-			<h3> Erros and solutions</h3>
-				<ul>	
-					<li>
-						<p>Line 109, Column 9: No p element in scope but a p end tag seen.<p>
-						<p>Line 113, Column 9: No p element in scope but a p end tag seen.<p>
-						<p>Line 117, Column 9: No p element in scope but a p end tag seen.<p>
-							<ul>
-							<li>It seems there is an extra closing p tag on these lines.</li>
-							</ul>
-					</li>
-				</ul>		
-			
-			
-			
-			
 			<!-- <ul>
 				<li>
 					<p>Error</p>
@@ -43,21 +17,88 @@
 						</ul>
 				</li>
 			-->	
-			
-			
-			
-			
-			
-			
-			
-			
-			
+	
+	
+		<h1>HTML5 Validation Check</h1>
+		
+			<h2><a href="http://www.brandvillage.com.au/">www.brandvillage.com.au/</a></h2>
+			<p>Brand Village is website that works on research of customer feedbacks for big brands.</p>
+			<h3> Erros and solutions</h3>
+				<ul>	
+					<li><p>This website does not have any erros and passed the W3C validation<p>
+					</li>	
+				</ul>
+			<h2><a href="http://www.pseudoroom.com/">www.pseudoroom.com</a></h2>
+			<p>Pseudo Room is a personal website of the designer Justin Dauer.</p>
+			<h3> Erros and solutions</h3>
+				<ul>	
+					<li>
+						<p>Line 109, Column 9: No p element in scope but a p end tag seen.<p>
+						<p>Line 113, Column 9: No p element in scope but a p end tag seen.<p>
+						<p>Line 117, Column 9: No p element in scope but a p end tag seen.<p>
+							<ul>
+							<li>Solution: It seems there is an extra closing p tag on these lines.</li>
+							</ul>
+					</li>
+				</ul>
 				
-			<h2><a href="http://www.pseudoroom.com/">www.pseudoroom.com</a></h2>	
+			<h2><a href="http://www.eliantemo.com/">www.eliantemo.com</a></h2>
+			<p>Eliantemo is a Italian Hotel website.</p>
+			<h3> Erros and solutions</h3>
+				<ul>
+					<li>
+						<p>Line 84, Column 318: The frameborder attribute on the iframe element is obsolete. Use CSS instead</p>
+							<ul>
+							<li>Solution: They are using a obsolete element. The solution is to remove the frameborder element.</li>
+							</ul>
+					</li>
+					<li>
+						<p>Line 87, Column 76: Bad value lightbox[gallery] for attribute rel on element a: The string lightbox[gallery] is not a registered keyword or absolute URL.</p>
+						<p>Line 90, Column 78: Bad value lightbox[gallery] for attribute rel on element a: The string lightbox[gallery] is not a registered keyword or absolute URL.</p>
+						<p>Line 93, Column 73: Bad value lightbox[gallery] for attribute rel on element a: The string lightbox[gallery] is not a registered keyword or absolute URL.</p>
+						<p>Line 96, Column 92: Bad value lightbox[gallery] for attribute rel on element a: The string lightbox[gallery] is not a registered keyword or absolute URL.</p>
+							<ul>
+							<li>Solution: They are using the rel attribute inappropriately and also the value they are passing is wrong. They should try another way to get the same result.</li>
+							</ul>
+					</li>
+					<li>
+						<p>Line 129, Column 214: The frameborder attribute on the iframe element is obsolete. Use CSS instead.</p>
+							<ul>
+							<li>Solution: They are using a obsolete element. The solution is to remove the frameborder element.</li>
+							</ul>
+					</li>
+				</ul>
+			<h2><a href="http://www.thibaultjorge.com/">www.thibaultjorge.com</a></h2>
+			<p>This website is a personal portfolio of Thibault Jorge</p>
+			<h3> Erros and solutions</h3>
+				<ul>
+					<li>
+						<p>Line 12, Column 63: Bad value X-UA-Compatible for attribute http-equiv on element meta.</p>
+							<ul>
+							<li>They need to use a proper value for the http-equiv attribute and also correct the self-closing tag on the meta element.</li>
+							</ul>
+					</li>
+					<li>
+						<p>Line 19, Column 58: Bad value copyright for attribute name on element meta: Keyword copyright is not registered.</p>
+							<ul>
+							<li>They need to use a proper value for the name attribute and also correct the self-closing tag on the meta element.</li>
+							</ul>
+					</li>
+					<li>
+						<p>Line 21, Column 56: Bad value author-corporate for attribute name on element meta: Keyword author-corporate is not registered.</p>
+							<ul>
+							<li>They need to use a proper value for the name attribute and also correct the self-closing tag on the meta element.</li>
+							</ul>
+					</li>
+					<li>
+						<p>Line 22, Column 55: Bad value email for attribute name on element meta: Keyword email is not registered.</p>
+							<ul>
+							<li>They need to use a proper value for the name attribute and also correct the self-closing tag on the meta element.</li>
+							</ul>
+					</li>
 				
-			<h2><a href="http://www.eliantemo.com/">www.eliantemo.com</a></h2>	
+				</ul>
 				
-			<h2><a href="http://www.thibaultjorge.com/">www.thibaultjorge.com</a></h2>	
 				
 		
 	</body>

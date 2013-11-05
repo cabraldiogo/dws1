@@ -3,6 +3,7 @@ body {
 	margin: 0 auto;
 	font-family: verdana;
 	font-size: 14px;
+	background-color: #5D9B88;
 }
 
 #container{
@@ -12,10 +13,21 @@ body {
 h1, h2{
 	margin: 5px;
 	padding: 5px;
+	color: #067250;
 }
 
 h2{
 	font-style: italic;
+}
+
+h3 a{
+	color: #07996B;
+	margin: 10px;
+	text-decoration:none;
+}
+
+ul{
+	line-height: 25px;
 }
 
 #instructions{

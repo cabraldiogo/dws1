@@ -9,6 +9,7 @@ body {
 #container{
 	background-color: #D8D8D8;
 	border-radius: 10px;
+	padding-bottom:1px;
 }
 
 h1, h2{

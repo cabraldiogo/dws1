@@ -8,10 +8,11 @@ body {
 
 #container{
 	background-color: #D8D8D8;
+	border-radius: 10px;
 }
 
 h1, h2{
-	margin: 5px;
+	margin-left: 20px;
 	padding: 5px;
 	color: #067250;
 }
@@ -22,14 +23,21 @@ h2{
 
 h3 a{
 	color: #07996B;
-	margin: 10px;
 	text-decoration:none;
+	margin-left: 20px;
 }
 
-ul{
+ul {
 	line-height: 25px;
+	margin: 15px;
+	margin-bottom: 35px;
+}
+
+ol {
+	margin-bottom: 300px;
 }
 
 #instructions{
-	margin: 5px;
+	margin: 15px;
+	margin-bottom: 30px;
 }

@@ -1,3 +1,23 @@
 body {
-max-width: 780px;
+	max-width: 780px;
+	margin: 0 auto;
+	font-family: verdana;
+	font-size: 14px;
+}
+
+#container{
+	background-color: #D8D8D8;
+}
+
+h1, h2{
+	margin: 5px;
+	padding: 5px;
+}
+
+h2{
+	font-style: italic;
+}
+
+#instructions{
+	margin: 5px;
 }

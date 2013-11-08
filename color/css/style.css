@@ -1,3 +1,96 @@
+/*  Color scheme from Adobe Kuler. Theme: The Small Experience
+	colors
+	#003540
+	#0d3f40
+	#487360
+	#8fa671
+	#f2d795
+*/
+
+
+
 body{
+	background-color: #003540;
+	color: silver;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+#menu{
+	width: auto;
+    height: 50px;
+    line-height:50px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(80,108,129,0.9);
+    border-radius: 8px;
+}
+
+
+h1{
+	color: #487360;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+h2{
+	color: #f2d795;
+	background-color: hsla(20, 70%, 44%,0.85);
+	border-radius: 4px;
+	margin: 8px;
+	padding-left: 8px;
+	height: 32px;
+    line-height:30px;
+	
+}
+
+h3{
+	margin-left:25px;
+	font-style: italic;
+	text-decoration: underline;
+	
+}
+
+p {
+	letter-spacing: 0.02em;
+	margin: 30px;
+	
+}
+
+#menu li{
+	display: inline;
+	color: white;
+	opacity: 0.9;
+	text-decoration: none;
+	font-size: 1.25em;
+	letter-spacing: 0.1em;
+	
+
 
 }
+
+#menu a {
+    text-decoration: none;
+    padding: 8px 18px 8px 18px;
+    color: white;
+    
+}
+	
+#menu a:hover{
+
+ color: #f2d795;
+
+}
+
+.box-list{
+	color: hsl(243, 68%, 96%);
+	background-color: #0d3f40;
+	opacity: 0.8;
+	border-radius: 5px;
+	margin: 30px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+

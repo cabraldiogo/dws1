@@ -38,7 +38,7 @@ h2{
 	border-radius: 4px;
 	margin: 8px;
 	text-indent: 15px;
-	
+	font-weight: 800;
 	height: 32px;
     line-height:30px;
 }
@@ -83,6 +83,13 @@ p {
 	padding-bottom: 4px;
 }
 
+#resource{
+	text-transform: uppercase;
+}
+
 #resource a:link{
 	color: white;
+	text-transform: capitalize;
+	font-style: italic;
+	
 }

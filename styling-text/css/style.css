@@ -10,7 +10,7 @@
 body{
 	background-color: #003540;
 	color: silver;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 #menu{
@@ -25,11 +25,16 @@ body{
     border-radius: 8px;
 }
 
+h1, h2, h3{
+	font-family: 'Open Sans', sans-serif;
+}
 
 h1{
 	color: #487360;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2.8em;
+	font-weight: bolder;
+	text-shadow: 2px 2px 3px rgba(0,0,0, 1);
 }
 
 h2{
@@ -41,18 +46,33 @@ h2{
 	font-weight: 800;
 	height: 32px;
     line-height:30px;
+  	text-shadow: 1.5px 1.5px 3px rgba(150, 150, 150, 1);
 }
 
 h3{
+	color: hsla(20, 70%, 44%,0.85);
 	text-indent: 35px;
 	font-style: italic;
+	font-weight: bolder;
 	text-decoration: underline;
 }
 
 p {
-	letter-spacing: 0.02em;
+	letter-spacing: 2px;
 	margin: 30px;
+	text-indent: 25px;
 }
+
+a:link{
+	color: #487360;
+	text-decoration: none;
+	font-style: italic;
+}
+
+p a:visited{
+	color: white;
+}
+
 
 #menu li{
 	display: inline;
@@ -67,12 +87,15 @@ p {
     text-decoration: none;
     padding: 8px 18px 8px 18px;
     color: white;
+    font-style: normal;
 }
 	
 #menu a:hover{
- color: #f2d795;
+ 	color: #f2d795;
 }
-
+#menu a:active{
+	color: #487360;
+}
 
 .box-list{
 	color: hsl(243, 68%, 96%);

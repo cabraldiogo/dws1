@@ -73,6 +73,7 @@ p {
  color: #f2d795;
 }
 
+
 .box-list{
 	color: hsl(243, 68%, 96%);
 	background-color: #0d3f40;
@@ -81,6 +82,8 @@ p {
 	margin: 30px;
 	padding-top: 4px;
 	padding-bottom: 4px;
+	font: italic 400 16px/1.4 'Open Sans', sans-serif;
+	
 }
 
 #resource{

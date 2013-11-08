@@ -37,13 +37,14 @@ h2{
 	background-color: hsla(20, 70%, 44%,0.85);
 	border-radius: 4px;
 	margin: 8px;
-	padding-left: 8px;
+	text-indent: 15px;
+	
 	height: 32px;
     line-height:30px;
 }
 
 h3{
-	margin-left:25px;
+	text-indent: 35px;
 	font-style: italic;
 	text-decoration: underline;
 }

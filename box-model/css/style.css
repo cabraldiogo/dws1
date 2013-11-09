@@ -111,8 +111,7 @@ p a:visited{
 	opacity: 0.8;
 	border-radius: 5px;
 	margin: 30px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding: 8px 40px;
 	font: italic 400 16px/1.4 'Open Sans', sans-serif;
 
 }

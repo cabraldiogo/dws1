@@ -28,7 +28,6 @@ body{
     background-color: rgba(80,108,129,0.9);
     border-radius: 8px;
     margin: auto;
-    
 }
 
 h1, h2, h3{
@@ -129,5 +128,4 @@ ul.box-list {
 	color: white;
 	text-transform: capitalize;
 	font-style: italic;
-	
 }

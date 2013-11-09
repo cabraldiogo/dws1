@@ -128,6 +128,10 @@ ul.box-list {
 	list-style-type: circle;
 }
 
+ol.box-list{
+	border: 1px solid white;
+}
+
 #resource{
 	text-transform: uppercase;
 }

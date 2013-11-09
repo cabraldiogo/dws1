@@ -76,7 +76,6 @@ p {
 	margin-right: 60px;
 	font: italic 14px/1 Arial, sans-serif;
 	color: white;
-	text-decoration: underline;
 }
 a:link{
 	color: #487360;
@@ -87,8 +86,6 @@ a:link{
 p a:visited{
 	color: white;
 }
-
-
 
 #menu li{
 	list-style-type: inline;

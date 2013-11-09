@@ -1,0 +1,128 @@
+/*  Color scheme from Adobe Kuler. Theme: The Small Experience
+	colors
+	#003540
+	#0d3f40
+	#487360
+	#8fa671
+	#f2d795
+	
+	
+	
+*/
+
+body{
+	background-color: #003540;
+	color: silver;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#menu{
+	width: auto;
+    height: 50px;
+    line-height:50px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(80,108,129,0.9);
+    border-radius: 8px;
+    margin: auto;
+}
+
+h1, h2, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	color: #487360;
+	text-align: center;
+	font-size: 2.8em;
+	font-weight: bolder;
+	text-shadow: 2px 2px 3px rgba(0,0,0, 1);
+}
+
+h2{
+	color: #f2d795;
+	background-color: hsla(20, 70%, 44%,0.85);
+	border-radius: 4px;
+	margin: 8px;
+	text-indent: 15px;
+	font-weight: 800;
+	height: 32px;
+    line-height:30px;
+  	text-shadow: 1.5px 1.5px 3px rgba(150, 150, 150, 1);
+}
+
+h3{
+	color: hsla(20, 70%, 44%,0.85);
+	text-indent: 35px;
+	font-style: italic;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+p {
+	letter-spacing: 2px;
+	margin: 30px;
+	text-indent: 25px;
+}
+
+a:link{
+	color: #487360;
+	text-decoration: none;
+	font-style: italic;
+}
+
+p a:visited{
+	color: white;
+}
+
+
+#menu li{
+	
+	list-style-type: inline;
+	display: inline-block;
+	color: white;
+	opacity: 0.9;
+	text-decoration: none;
+	font-size: 1.25em;
+	letter-spacing: 0.1em;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 8px 18px 8px 18px;
+    color: white;
+    font-style: normal;
+}
+	
+#menu a:hover{
+ 	color: #f2d795;
+}
+#menu a:active{
+	color: #487360;
+}
+
+.box-list{
+	color: hsl(243, 68%, 96%);
+	background-color: #0d3f40;
+	opacity: 0.8;
+	border-radius: 5px;
+	margin: 30px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font: italic 400 16px/1.4 'Open Sans', sans-serif;
+	box-shadow: 1px 1px 5px 4px silver;
+	
+}
+
+#resource{
+	text-transform: uppercase;
+}
+
+#resource a:link{
+	color: white;
+	text-transform: capitalize;
+	font-style: italic;
+	
+}

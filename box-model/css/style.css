@@ -51,6 +51,7 @@ h2{
 	height: 32px;
     line-height:30px;
   	text-shadow: 1.5px 1.5px 3px rgba(150, 150, 150, 1);
+  	box-shadow: 1px 2px 6px black;
 }
 
 h3{
@@ -112,8 +113,11 @@ p a:visited{
 	padding-top: 4px;
 	padding-bottom: 4px;
 	font: italic 400 16px/1.4 'Open Sans', sans-serif;
-	box-shadow: 1px 1px 5px 4px silver;
 	
+}
+
+ul.box-list {
+	box-shadow: 1px 1px 5px 4px silver;
 }
 
 #resource{

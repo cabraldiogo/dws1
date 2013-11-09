@@ -80,7 +80,6 @@ p a:visited{
 
 
 #menu li{
-	
 	list-style-type: inline;
 	display: inline-block;
 	color: white;
@@ -92,7 +91,7 @@ p a:visited{
 
 #menu a {
     text-decoration: none;
-    padding: 8px 18px 8px 18px;
+    padding: 8px 18px;
     color: white;
     font-style: normal;
 }
@@ -100,6 +99,7 @@ p a:visited{
 #menu a:hover{
  	color: #f2d795;
 }
+
 #menu a:active{
 	color: #487360;
 }
@@ -113,7 +113,6 @@ p a:visited{
 	padding-top: 4px;
 	padding-bottom: 4px;
 	font: italic 400 16px/1.4 'Open Sans', sans-serif;
-	
 }
 
 ul.box-list {

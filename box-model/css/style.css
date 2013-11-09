@@ -20,13 +20,15 @@ body{
 	width: auto;
     height: 50px;
     line-height:50px;
-    font-size: 16px;
+    /*font-size: 16px;
     font-family: Tahoma, Geneva, sans-serif;
-    font-weight: bold;
+    font-weight: bold;*/
+    font: bold 16px/50px Tahoma, Geneva, sans-serif;   /* short-hand code for font properties */
     text-align: center;
     background-color: rgba(80,108,129,0.9);
     border-radius: 8px;
     margin: auto;
+    
 }
 
 h1, h2, h3{
@@ -78,7 +80,6 @@ p a:visited{
 	color: white;
 }
 
-
 #menu li{
 	list-style-type: inline;
 	display: inline-block;
@@ -110,13 +111,15 @@ p a:visited{
 	opacity: 0.8;
 	border-radius: 5px;
 	margin: 30px;
-	padding-top: 4px;
-	padding-bottom: 4px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	font: italic 400 16px/1.4 'Open Sans', sans-serif;
+
 }
 
 ul.box-list {
-	box-shadow: 1px 1px 5px 4px silver;
+	box-shadow: 1px 1px 5px 3px silver;
+	list-style-type: circle;
 }
 
 #resource{

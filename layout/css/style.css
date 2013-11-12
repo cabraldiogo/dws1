@@ -6,8 +6,7 @@
 	#8fa671
 	#f2d795
 	
-	Validation OK  
-	Congratulations! No Error Found.
+	
 	
 */
 
@@ -15,6 +14,14 @@ body{
 	background-color: #003540;
 	color: silver;
 	font-family: Tahoma, Geneva, sans-serif;
+	
+	
+}
+
+#wrapper{
+	width: 90%;
+	margin: auto;
+
 }
 
 #menu{

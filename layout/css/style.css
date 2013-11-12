@@ -19,7 +19,7 @@ body{
 #wrapper{
 	width: 90%;
 	margin: auto;
-
+	
 }
 
 #nav{
@@ -34,6 +34,26 @@ body{
     background-color: rgba(80,108,129,0.9);
     border-radius: 8px;
     margin: auto;
+    
+}
+
+#content{
+	width: 60%;
+	margin: 1%;
+	float: left;
+	
+}
+
+#sidebar{
+	width: 32%;
+	margin: 1%;
+	float: left;
+
+}
+
+#footer{
+	width: 90%;
+	float: left;
 }
 
 h1, h2, h3{

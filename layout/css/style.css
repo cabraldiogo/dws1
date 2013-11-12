@@ -14,8 +14,6 @@ body{
 	background-color: #003540;
 	color: silver;
 	font-family: Tahoma, Geneva, sans-serif;
-	
-	
 }
 
 #wrapper{
@@ -24,7 +22,7 @@ body{
 
 }
 
-#menu{
+#nav{
 	width: auto;
     height: 50px;
     line-height:50px;
@@ -95,7 +93,7 @@ p a:visited{
 	color: white;
 }
 
-#menu li{
+#nav li{
 	list-style-type: inline;
 	display: inline-block;
 	color: white;
@@ -105,18 +103,18 @@ p a:visited{
 	letter-spacing: 0.1em;
 }
 
-#menu a {
+#nav a {
     text-decoration: none;
     padding: 8px 18px;
     color: white;
     font-style: normal;
 }
 	
-#menu a:hover{
+#nav a:hover{
  	color: #f2d795;
 }
 
-#menu a:active{
+#nav a:active{
 	color: #487360;
 }
 

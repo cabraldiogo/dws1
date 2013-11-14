@@ -39,14 +39,17 @@ body{
 
 #content{
 	width: 68%;
-	margin: 1% 5% 1% 2%;
+	margin: 1% ;
 	float: left;
+	background-color: rgba(80,108,129,0.9);
+	padding: 0 1%;
+	border-radius: 4px;
 	
 }
 
 #sidebar{
-	width: 25%;
-	margin-top: 11%;
+	width: 24%;
+	margin: 1.5% 2%;
 	float: left;
 	background-color: #0d3f40;
 	border-radius: 8px;
@@ -64,10 +67,16 @@ h1, h2, h3{
 
 h1{
 	color: #487360;
+	/*background-color: white; */
 	text-align: center;
 	font-size: 2.8em;
 	font-weight: bolder;
-	text-shadow: 2px 2px 3px rgba(0,0,0, 1);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+	/*background-color: hsla(20, 70%, 44%,0.85);*/
+	box-shadow: 1px 2px 6px black;
+	border-radius: 4px;
+	margin-top: 1%;
+	background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
 }
 
 h2{
@@ -95,7 +104,7 @@ h3{
 p {
 	letter-spacing: 0.125em;
 	margin: 1%;
-	text-indent: 25px;
+	text-indent: 35px;
 }
 
 .back-to-top{

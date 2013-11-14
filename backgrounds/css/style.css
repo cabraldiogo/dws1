@@ -12,9 +12,10 @@
 */
 
 body{
-	background-color: #003540;
+	
 	color: silver;
 	font-family: Tahoma, Geneva, sans-serif;
+	background: url("../images/pattern_156.gif") repeat top right;
 }
 
 #wrapper{
@@ -40,6 +41,7 @@ body{
 	width: 68%;
 	margin: 1% 5% 1% 2%;
 	float: left;
+	
 }
 
 #sidebar{

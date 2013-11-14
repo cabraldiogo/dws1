@@ -103,16 +103,23 @@ h3{
 }
 
 h3#discography{
-	background: url("../images/cd.png") no-repeat top left;
-	height: 30px;
-	text-indent: 15%;
-	margin-left: 2%;
+	background-image: url("../images/cd.png");
 }
 
+h3#members{
+	background-image: url("../images/mic.png");
+}
 p {
 	letter-spacing: 0.125em;
 	margin: 1%;
 	text-indent: 35px;
+}
+.icon{
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 31px;
+	text-indent: 15%;
+	margin-left: 2%;
 }
 
 .back-to-top{

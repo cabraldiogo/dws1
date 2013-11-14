@@ -1,0 +1,170 @@
+/*  Color scheme from Adobe Kuler. Theme: The Small Experience
+	colors
+	#003540
+	#0d3f40
+	#487360
+	#8fa671
+	#f2d795
+	
+	Congratulations! No Error Found.
+	
+	
+*/
+
+body{
+	background-color: #003540;
+	color: silver;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#wrapper{
+	width: 90%;
+	margin: auto;
+}
+
+#nav{
+	width: auto;
+    height: 3.125em;
+    line-height: 3.125em;
+    /*font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;*/
+    font: bold 1em/3.125em Tahoma, Geneva, sans-serif;   /* short-hand code for font properties */
+    text-align: center;
+    background-color: rgba(80,108,129,0.9);
+    border-radius: 8px;
+    margin: auto;
+}
+
+#content{
+	width: 68%;
+	margin: 1% 5% 1% 2%;
+	float: left;
+}
+
+#sidebar{
+	width: 25%;
+	margin-top: 11%;
+	float: left;
+	background-color: #0d3f40;
+	border-radius: 8px;
+	box-shadow: 1px 1px 5px 3px silver;
+}
+
+#footer{
+	width: 90%;
+	float: left;
+}
+
+h1, h2, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	color: #487360;
+	text-align: center;
+	font-size: 2.8em;
+	font-weight: bolder;
+	text-shadow: 2px 2px 3px rgba(0,0,0, 1);
+}
+
+h2{
+	color: #f2d795;
+	background-color: hsla(20, 70%, 44%,0.85);
+	border-radius: 4px;
+	margin: 4% 1%;
+	text-indent: 0.5em;
+	font-weight: 800;
+	height: 1.5em;
+	text-align: center;
+    line-height: 1.3em;
+  	text-shadow: 1.5px 1.5px 3px rgba(150, 150, 150, 1);
+  	box-shadow: 1px 2px 6px black;
+}
+
+h3{
+	color: hsla(20, 70%, 44%,0.85);
+	text-indent: 25px;
+	font-style: italic;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+p {
+	letter-spacing: 0.125em;
+	margin: 1%;
+	text-indent: 25px;
+}
+
+.back-to-top{
+	display:block;
+	text-align: right;
+	margin-right: 4%;
+	font: italic 0.9em/1em Arial, sans-serif;
+	color: white;
+}
+
+a:link{
+	color: #487360;
+	text-decoration: none;
+	font-style: italic;
+}
+
+p a:visited{
+	color: white;
+}
+
+#nav ul{
+	padding:0
+}
+
+#nav li{
+	list-style-type: inline;
+	display: inline-block;
+	width:13%;
+	color: white;
+	opacity: 0.9;
+	list-style:none;
+	text-decoration: none;
+	font-size: 1.25em;
+	letter-spacing: 0.1em;
+}
+
+#nav a {
+    text-decoration: none;
+    padding: 10% 0;
+    color: white;
+    font-style: normal;
+}
+	
+#nav a:hover{
+ 	color: #f2d795;
+}
+
+#nav a:active{
+	color: #487360;
+}
+
+.box-list{
+	color: hsl(243, 68%, 96%);
+	background-color: #0d3f40;
+	opacity: 0.8;
+	margin: 4%;
+	padding: 8px 40px;
+	font: italic 400 16px/1.4 'Open Sans', sans-serif;
+}
+
+ul.box-list {
+
+	list-style-type: circle;
+}
+
+#resource{
+	text-transform: uppercase;
+}
+
+#resource a:link{
+	color: white;
+	text-transform: capitalize;
+	font-style: italic;
+}

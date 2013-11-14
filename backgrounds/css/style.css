@@ -124,7 +124,7 @@ p {
 }
 
 a:link{
-	color: #487360;
+	color: hsl(20, 70%, 44%);
 	text-decoration: none;
 	font-style: italic;
 }

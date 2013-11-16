@@ -65,7 +65,7 @@ aside h3{
 table{
 	width: 98%;
 	margin: 0 auto 2%;
-	padding: 0 1%;
+	padding: 0 1% 1% 1%;
 	clear: left;
 	background: silver;
 	color: black;
@@ -225,10 +225,16 @@ td{
 th{
 	padding: 1px 0;
 	font-style: italic;
+	background: silver;
 }
 
 tr{
 	vertical-align: center;
+}
+
+tr:hover{
+	background: #487360;
+	font-style: italic;
 }
 
 .even{

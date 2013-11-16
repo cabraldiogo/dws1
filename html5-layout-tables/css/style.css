@@ -62,9 +62,16 @@ aside h3{
 	
 }
 
+table{
+	width: 68%;
+	clear: left;
+	
+}
+
 footer{
-	width: 90%;
+	width: 100%;
 	float: left;
+	background: #487360;
 }
 
 h1, h2, h3{

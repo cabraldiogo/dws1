@@ -33,7 +33,7 @@ nav{
     font: bold 1em/3.125em Tahoma, Geneva, sans-serif;   /* short-hand code for font properties */
     text-align: center;
     background-color: rgba(80,108,129,0.9);
-    border-radius: 8px;
+    
     margin: auto;
 }
 

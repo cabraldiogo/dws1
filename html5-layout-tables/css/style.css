@@ -216,10 +216,6 @@ th {
 	background: silver;
 }
 
-tr {
-	vertical-align: center;
-}
-
 tr:hover {
 	background: #487360;
 	font-style: italic;

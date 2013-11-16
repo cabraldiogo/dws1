@@ -86,7 +86,7 @@ h1{
 	box-shadow: 1px 2px 6px black;
 	border-radius: 4px;
 	margin-top: 2%;
-	padding-bottom: 2px;
+	padding-bottom: 1%;
 	background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
 	background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
 }

@@ -237,3 +237,68 @@ tr:hover {
 header, nav, article, footer, section, aside, figure, figcaption{
 	display:block
 }
+
+form{
+	width: 21.5%;
+	margin: 2% 4.2% 2% 2%;
+	float: left;
+	background: #0d3f40;
+	border-radius: 8px;
+	box-shadow: 1px 1px 2px 3px silver;
+	float: left;
+	text-indent: 10px;
+	font-size: 0.8em;
+	
+	
+}
+
+
+#form-main label{
+/*	width: 90%;*/
+width:90%;
+	
+}
+
+#form-main{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: left;
+	
+}
+
+fieldset input{
+	
+	padding: 0;
+	margin: 1px 0;
+	width: 170px;
+	
+	
+}
+
+fieldset label{
+	float: left;
+	text-align: right;
+	margin: 2px 1px;
+	border: 1px solid red;
+	
+}
+
+form p{
+	margin: 1% 0;
+	text-indent: 5px;
+	display:block;
+	width: 180px;
+	border: 1px solid red;
+}
+
+#bt-form, textarea{
+	float: left;
+	clear: left;
+	margin-left: 10px;
+}
+
+#gender{
+	padding-left: 14px;
+}
+

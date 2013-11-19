@@ -234,6 +234,6 @@ tr:hover {
 	font-style: italic;
 }
 
-header,nav,article,footer,section,aside,figure,figcaption{
+header, nav, article, footer, section, aside, figure, figcaption{
 	display:block
 }

@@ -1,0 +1,239 @@
+/*  Color scheme from Adobe Kuler. Theme: The Small Experience
+	colors
+	#003540
+	#0d3f40
+	#487360
+	#8fa671
+	#f2d795
+	
+	Validation: Congratulations! No Error Found.
+	
+*/
+
+body{
+	color: silver;
+	font-family: Tahoma, Geneva, sans-serif;
+	background: url("../images/pattern_156.gif") repeat top right;
+	margin: 0;
+}
+#wrapper{
+	width: 90%;
+	margin: auto;
+}
+
+nav{
+	width: 100%;
+    height: 3.125em;
+    font: bold 1em/3.125em Tahoma, Geneva, sans-serif;   /* short-hand code for font properties */
+    text-align: center;
+    background: rgba(80,108,129,0.9);
+    margin: auto;
+}
+
+#content{
+	width: 68%;
+	margin: 2% 1%;
+	float: left;
+	background: rgba(80,108,129,0.9);
+	padding: 0 1%;
+	border-radius: 4px;
+}
+
+aside{
+	width: 24%;
+	margin: 2.1% 2%;
+	float: left;
+	background: #0d3f40;
+	border-radius: 8px;
+	box-shadow: 1px 1px 2px 3px silver;
+}
+
+aside h3{
+	text-decoration: none;
+	color: hsl(20, 70%, 44%);
+}
+
+table{
+	width: 98%;
+	margin: 0 auto 2%;
+	padding: 0 1% 1% 1%;
+	clear: left;
+	background: silver;
+	color: black;
+	border-radius: 4px;
+	border: 1px solid white;
+	border-spacing: 0;
+	font-size: 1.1em;
+}
+
+footer{
+	width: 100%;
+	float: left;
+	background: #487360;
+}
+
+h1, h2, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	color: #487360;
+	text-align: center;
+	font-size: 2.8em;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+	box-shadow: 1px 2px 6px black;
+	border-radius: 4px;
+	margin-top: 2%;
+	padding-bottom: 1%;
+	background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+	background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+}
+
+h2{
+	color: #f2d795;
+	background: hsla(20, 70%, 44%,0.85);
+	border-radius: 4px;
+	margin: 4% 1%;
+	text-indent: 0.5em;
+	font-weight: 800;
+	height: 1.5em;
+	text-align: center;
+    line-height: 1.3em;
+  	text-shadow: 1.5px 1.5px 3px rgba(150, 150, 150, 1);
+  	box-shadow: 1px 2px 6px black;
+}
+
+h3{
+	color: white;
+	text-indent: 25px;
+	font-style: italic;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
+
+h3#discography{
+	background-image: url("../images/cd.png");
+}
+
+h3#members{
+	background-image: url("../images/mic.png");
+}
+
+p {
+	letter-spacing: 0.125em;
+	margin: 1%;
+	text-indent: 35px;
+}
+
+.h3-aside{
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 31px;
+	text-indent: 15%;
+	margin-left: 5%;
+}
+
+.back-to-top{
+	display:block;
+	text-align: right;
+	margin-right: 4%;
+	font: italic 0.9em/1em Arial, sans-serif;
+	color: white;
+}
+
+.back-to-top a:link{
+	color: white;
+}
+
+a:link{
+	color: hsl(20, 70%, 44%);
+	text-decoration: none;
+	font-style: italic;
+}
+
+p a:visited{
+	color: white;
+}
+
+nav ul{
+	margin-top:0;
+}
+
+nav li{
+	
+	display: inline-block;
+	width:13%;
+	color: white;
+	opacity: 0.9;
+	list-style:none;
+	text-decoration: none;
+	font-size: 1.25em;
+	letter-spacing: 0.1em;
+}
+
+nav a:link {
+    text-decoration: none;
+    padding: 10% 0;
+    color: white;
+    font-style: normal;
+}
+
+nav a:visited {
+	color: white;
+}
+	
+nav a:hover {
+ 	color: #f2d795;
+}
+
+nav a:active{
+	color: #487360;
+}
+
+.box-list{
+	color: hsl(243, 68%, 96%);
+	opacity: 0.8;
+	margin: 4%;
+	padding: 8px 40px;
+	font: italic 400 16px/1.4 'Open Sans', sans-serif;
+}
+
+ul.box-list {
+	list-style-type: circle;
+}
+
+td { 
+	text-align: center;
+	letter-spacing: 0.1em;
+	border: 1px solid black;
+}
+
+th {
+	padding: 1px 0;
+	font-style: italic;
+	background: silver;
+}
+
+tr:hover {
+	background: #487360;
+	font-style: italic;
+}
+
+.even {
+	background: gray;
+}
+
+#resource {
+	text-transform: uppercase;
+}
+
+#resource a:link {
+	color: white;
+	text-transform: capitalize;
+	font-style: italic;
+}
+
+header,nav,article,footer,section,aside,figure,figcaption{
+	display:block
+}

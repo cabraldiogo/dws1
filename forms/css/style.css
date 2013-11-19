@@ -246,8 +246,9 @@ form{
 	border-radius: 8px;
 	box-shadow: 1px 1px 2px 3px silver;
 	float: left;
-	text-indent: 10px;
+	text-indent: 1px;
 	font-size: 0.8em;
+	padding: 10px 0;
 	
 	
 }
@@ -265,6 +266,10 @@ width:90%;
 	padding: 0;
 	float: left;
 	
+}
+
+#form-main p{
+	text-indent: 20px;
 }
 
 fieldset input{
@@ -286,9 +291,9 @@ fieldset label{
 
 form p{
 	margin: 1% 0;
-	text-indent: 5px;
+	text-indent: 15px;
 	display:block;
-	width: 180px;
+	width: 240px;
 	border: 1px solid red;
 }
 
@@ -300,5 +305,11 @@ form p{
 
 #gender{
 	padding-left: 14px;
+	letter-spacing: 0.1em;
 }
+
+#gender input{
+	margin-left: 10px;
+}
+
 

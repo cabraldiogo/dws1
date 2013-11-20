@@ -246,18 +246,14 @@ form{
 	border-radius: 8px;
 	box-shadow: 1px 1px 2px 3px silver;
 	float: left;
-	text-indent: 1px;
+	text-indent: 10px;
 	font-size: 0.8em;
 	padding: 10px 0;
-	
-	
 }
-
 
 #form-main label{
 /*	width: 90%;*/
 width:90%;
-	
 }
 
 #form-main{
@@ -265,28 +261,24 @@ width:90%;
 	margin: 0;
 	padding: 0;
 	float: left;
-	
-}
-
-#form-main p{
-	text-indent: 20px;
 }
 
 fieldset input{
-	
 	padding: 0;
 	margin: 1px 0;
 	width: 170px;
-	
-	
+}
+
+#form-title{
+	font-size: 1.3em;
+	text-indent: 80px;
+	margin-bottom: 15px;
 }
 
 fieldset label{
 	float: left;
 	text-align: right;
 	margin: 2px 1px;
-	border: 1px solid red;
-	
 }
 
 form p{
@@ -294,7 +286,14 @@ form p{
 	text-indent: 15px;
 	display:block;
 	width: 240px;
-	border: 1px solid red;
+}
+
+#bt-form:hover{
+	cursor: pointer;
+}
+
+#bt-form{
+	width: 100px;
 }
 
 #bt-form, textarea{
@@ -304,7 +303,7 @@ form p{
 }
 
 #gender{
-	padding-left: 14px;
+	padding-left: 5px;
 	letter-spacing: 0.1em;
 }
 
@@ -312,4 +311,26 @@ form p{
 	margin-left: 10px;
 }
 
+select{
+	padding: 30px;
+	width: 100px;
+	display: block;
+}
 
+#dropdown{
+	padding-left: 10px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+textarea:hover, fieldset input:hover{
+	background: #ADD8E6;
+}
+
+textarea:focus, fieldset input:focus{
+	background: #D3D3D3;
+}
+
+#albums{
+	margin-left: 20px
+}
